@@ -562,14 +562,6 @@ video {
   position: relative;
 }
 
-.top-5 {
-  top: 1.25rem;
-}
-
-.right-3 {
-  right: 0.75rem;
-}
-
 .right-4 {
   right: 1rem;
 }
@@ -592,16 +584,12 @@ video {
   margin-bottom: 100px;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -614,6 +602,10 @@ video {
 
 .h-\[550px\] {
   height: 550px;
+}
+
+.h-\[500px\] {
+  height: 500px;
 }
 
 .w-fit {
@@ -682,6 +674,15 @@ video {
        column-gap: 1.75rem;
 }
 
+.gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.gap-y-1 {
+  row-gap: 0.25rem;
+}
+
 .gap-y-10 {
   row-gap: 2.5rem;
 }
@@ -690,43 +691,35 @@ video {
   row-gap: 0.5rem;
 }
 
-.gap-x-8 {
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+.gap-y-8 {
+  row-gap: 2rem;
 }
 
 .gap-y-5 {
   row-gap: 1.25rem;
 }
 
-.gap-y-1 {
-  row-gap: 0.25rem;
-}
-
-.gap-y-20 {
-  row-gap: 5rem;
-}
-
-.gap-y-8 {
-  row-gap: 2rem;
-}
-
-.rounded-full {
-  border-radius: 9999px;
+.gap-x-24 {
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
 }
 
 .rounded-2xl {
   border-radius: 1rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-\[\#080C2E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 12 46 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#F1F4F5\] {
   --tw-bg-opacity: 1;
   background-color: rgb(241 244 245 / var(--tw-bg-opacity));
-}
-
-.bg-blue-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }
 
 .bg-indigo-950 {
@@ -744,21 +737,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#080C2E\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(8 12 46 / var(--tw-bg-opacity));
-}
-
 .p-\[12px\] {
   padding: 12px;
 }
 
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .px-10 {
@@ -769,6 +753,11 @@ video {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-8 {
@@ -796,21 +785,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-\[200px\] {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -828,6 +802,11 @@ video {
   font-family: Poppins, sans-serif;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-\[70px\] {
   font-size: 70px;
 }
@@ -842,23 +821,9 @@ video {
   line-height: 1.75rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[22px\] {
-  font-size: 22px;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -881,6 +846,15 @@ video {
   line-height: 1.625;
 }
 
+.leading-tight {
+  line-height: 1.25;
+}
+
+.text-\[\#8D90A8\] {
+  --tw-text-opacity: 1;
+  color: rgb(141 144 168 / var(--tw-text-opacity));
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -899,25 +873,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.text-\[\#8D90A8\] {
-  --tw-text-opacity: 1;
-  color: rgb(141 144 168 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -940,11 +895,6 @@ video {
   background-color: rgb(109 40 217 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[\#080C2E\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(8 12 46 / var(--tw-bg-opacity));
-}
-
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -952,9 +902,4 @@ video {
 .hover\:text-violet-700:hover {
   --tw-text-opacity: 1;
   color: rgb(109 40 217 / var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
